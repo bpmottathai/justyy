@@ -1,0 +1,34 @@
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+ You can update description in update blog details page.
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://bpmottathai.github.io/justyy" # the base hostname & protocol for your site
+adsense_id: ca-pub-0000000000000000
+
+markdown: kramdown
+
+name: Your awesome title
+
+date: 2019-01-24 20:04:09 +0000
+permalink: /:year/:month/:day/:title
+
+logo: false
+sass:
+    load_paths:
+        - _sass
+        - bs
+paginate: 10
+adsid: ca-pub-8582082279264878
+domain_name: https://bpmottathai.github.io/justyy/
+google_analytics: UA-31XXXXXX-X
+
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+cover: Test tttett
+author_image: 
+# Details for the RSS feed generator
+author:        justyy
